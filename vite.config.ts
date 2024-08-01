@@ -11,5 +11,5 @@ export default defineConfig({
       Buffer: false,
     },
   }),],
-  base: '/ton-counter-frontend',
+  base: '/ton-counter-frontend/',
 });
