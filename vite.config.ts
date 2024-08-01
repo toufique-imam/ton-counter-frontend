@@ -4,12 +4,6 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), nodePolyfills({
-    globals: {
-      // Don't polyfill these globals
-      process: false,
-      Buffer: false,
-    },
-  }),],
-  base: '/ton-counter-frontend/',
+  plugins: [react(), nodePolyfills()],
+  base: "/first_contract_front_end/",
 });
