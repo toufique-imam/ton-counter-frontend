@@ -505,29 +505,6 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.19.2.tgz#d67206c5f2e4b2832ce360bbbde194e96d16dc51"
   integrity sha512-DPi0ubYhSow/00YqmG1jWm3qt1F8aXziHc/UNy8bo9cpCacqhuWu+iSq/fp2SyEQK7iYTZ60fBU9cat3MXTjIQ==
 
-"@ton/core@^0.56.3":
-  version "0.56.3"
-  resolved "https://registry.yarnpkg.com/@ton/core/-/core-0.56.3.tgz#1162764573abb76032eba70f8497e5cb2ea532ee"
-  integrity sha512-HVkalfqw8zqLLPehtq0CNhu5KjVzc7IrbDwDHPjGoOSXmnqSobiWj8a5F+YuWnZnEbQKtrnMGNOOjVw4LG37rg==
-  dependencies:
-    symbol.inspect "1.0.1"
-
-"@ton/crypto-primitives@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@ton/crypto-primitives/-/crypto-primitives-2.1.0.tgz#8c9277c250b59aae3c819e0d6bd61e44d998e9ca"
-  integrity sha512-PQesoyPgqyI6vzYtCXw4/ZzevePc4VGcJtFwf08v10OevVJHVfW238KBdpj1kEDQkxWLeuNHEpTECNFKnP6tow==
-  dependencies:
-    jssha "3.2.0"
-
-"@ton/crypto@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@ton/crypto/-/crypto-3.3.0.tgz#019103df6540fbc1d8102979b4587bc85ff9779e"
-  integrity sha512-/A6CYGgA/H36OZ9BbTaGerKtzWp50rg67ZCH2oIjV1NcrBaCK9Z343M+CxedvM7Haf3f/Ee9EhxyeTp0GKMUpA==
-  dependencies:
-    "@ton/crypto-primitives" "2.1.0"
-    jssha "3.2.0"
-    tweetnacl "1.0.3"
-
 "@tonconnect/isomorphic-eventsource@^0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@tonconnect/isomorphic-eventsource/-/isomorphic-eventsource-0.0.2.tgz#e58c44cf9953e090f2c35da9a638946ddb614be5"
