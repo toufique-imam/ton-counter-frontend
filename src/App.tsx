@@ -30,7 +30,16 @@ function App() {
         <div className='Card'>
           <b>{WebApp.platform}</b>
           <br/>
-          <b>{JSON.stringify(WebApp.initDataUnsafe)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.auth_date)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.can_send_after)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.chat)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.chat_instance)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.chat_type)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.hash)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.query_id)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.receiver)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.start_param)}</b>   <br />
+          <b>{JSON.stringify(WebApp.initDataUnsafe.user)}</b>   <br />
           <b>{JSON.stringify(WebApp.initData)}</b>   <br />
           <b>Our contract Address</b>
           <div className='Hint'>{contract_address?.slice(0, 30) + "..."}</div>
